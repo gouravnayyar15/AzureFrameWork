@@ -98,8 +98,7 @@ namespace AzureFrameWork
                 else
                 {
                     //TODO: Need to write the logic
-                    //makeing some changes
-                    //makeing some new changes
+                    // Checking the conflict option in git
                 }
             }
             catch (WebException ex)
