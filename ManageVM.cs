@@ -8,11 +8,7 @@ namespace AzureFrameWork
 {
     public static class ManageVM
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// 
-
+        //Added new changes
         private static string subscriberID = ConfigurationSettings.AppSettings[Constants.FieldNameConstants.SubscriptionID].ToString();
 
         public static bool AddRole(string serviceName, string deploymentName, AddRoleRequest requestObject)
