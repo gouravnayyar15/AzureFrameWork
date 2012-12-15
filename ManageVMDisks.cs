@@ -10,7 +10,7 @@ namespace AzureFrameWork
     public static class ManageVMDisks
     {
         //Branch testing
-
+        //Testing 
         private static string subscriberID = ConfigurationSettings.AppSettings[Constants.FieldNameConstants.SubscriptionID].ToString();
         private static string attachmsg = "Attched To Disk";
         private static string message = "Message";
